@@ -1,0 +1,20 @@
+# Implement a function that removes all the even elements from a given list. Name it remove_even(list).
+#
+# Input #
+# A list with random integers.
+#
+# Output #
+# A list with only odd integers
+#
+# Sample Input #
+# my_list = [1,2,4,5,10,6,3]
+# Sample Output #
+# my_list = [1,5,3]
+
+def remove_even_nums(numbers):
+    return [number for number in numbers if number % 2 != 0]
+#     odd_nums = []
+#     for number in numbers:
+#         if number % 2 != 0:
+#             odd_nums.append(number)
+#     return odd_nums
